@@ -39,12 +39,12 @@ public class Admin {
         this.adminPwd = adminPwd;
     }
 
-    public Admin() {
-    }
-
     public Admin(int adminId, String adminName, String adminPwd) {
         this.adminId = adminId;
         this.adminName = adminName;
         this.adminPwd = adminPwd;
+    }
+
+    public Admin() {
     }
 }
